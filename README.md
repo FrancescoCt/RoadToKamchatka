@@ -5,14 +5,18 @@ Il piccolo Sherman si è staccato dal plotone, in un tentativo
 disperato di raggiungere il QG si ritrova a percorrere tutta la
 strada che porta alla Kamchatka. \
 Riuscirà il nostro carro ad arrivare alla meta? \
-\
+Schiva i missili dell'elicottero inviato ad abbatterti, se vai troppo vicino il gioco finisce e devi ricominciare!
 
+## Comandi
+Muovi avanti: Freccia in alto
+Muovi indietro: Freccia i basso
+Ricomincia dopo il Game Over: Spazio
 
-## Requirements
+### Requirements
 pip install pygame
 
-## Testato su
+### Testato su
 Windows 10
 
-## Versione Python
+### Versione Python
 Python 3.9.9
