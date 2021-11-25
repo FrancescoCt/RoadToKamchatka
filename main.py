@@ -15,7 +15,6 @@ def collisione(missilex, missiley, carro, carro0x, carro0y):
         if carro_lato_su < missile_lato_su:
             print("Game over - Score: {}".format(score))
             hai_perso()
-### DA CONTINUARE
 
 #Inizializzo pygame
 pygame.init()
@@ -37,6 +36,7 @@ gameover = pygame.image.load('gameOver.png')
 SCHERMO = pygame.display.set_mode((412, 430))
 FPS = 50
 VEL_AVANZ = 3
+FONT = pygame.font.SysFont('Comic Sans Ms', 24, bold = True )
 
 def hai_perso():
     SCHERMO.blit(gameover, (50, 160))
@@ -66,6 +66,7 @@ def inizializza():
     score = 0
 def disegna_oggetti():
     #SCHERMO.blit(sfondo, (0, 0)) #sfondo fisso
+    #disegno sfondo e personaggio
     SCHERMO.blit(sfondo, (sfondox, 0))
     SCHERMO.blit(carro, (carrox, carroy))
     SCHERMO.blit(base, (basex, 322))
@@ -73,6 +74,9 @@ def disegna_oggetti():
     SCHERMO.blit(elicottero, (elicotterox, 20))
     if flag == True: SCHERMO.blit(missile, (missilex, missiley))
     if flag1 == True: SCHERMO.blit(missile1, (missile1x, missile1y))
+    #segno punteggio
+    score_render = FONT.render("Score: "+str(int(score)), 1, (255, 255, 255))
+    SCHERMO.blit(score_render, (0, 0))
 
 
 def aggiorna():
