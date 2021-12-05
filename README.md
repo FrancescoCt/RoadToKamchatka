@@ -18,7 +18,7 @@ Schiva i missili dell'elicottero inviato ad abbatterti, se vai troppo vicino il 
 ### Altre informazioni
 * Testato su Windows 10
 * Versione Python 3.9.9
-* Spazio in memoria approssimativo 1033 MB
+* Spazio in memoria approssimativo 33 MB
 
 ### Contatti 
 [Visita il mio profilo!](https://github.com/FrancescoCt/)
