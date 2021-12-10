@@ -1,4 +1,4 @@
-# RoadToKamchatka <img src="https://github.com/FrancescoCt/RoadToKamchatka/blob/main/carro2.png" width=40 />
+# RoadToKamchatka <img src="https://github.com/FrancescoCt/RoadToKamchatka/blob/main/images/carro2.png" width=40 />
 _Gioco 2D con basilare meccanismo di movimento e collisione._ \
 \
 Il piccolo Sherman si è staccato dal plotone e ha perso contatto con la sua squadra, in un tentativo 
