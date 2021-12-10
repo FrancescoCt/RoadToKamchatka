@@ -16,21 +16,25 @@ def collisione(missilex, missiley, carro, carro0x, carro0y):
             print("Game over - Score: {}".format(score))
             hai_perso()
 
+    if carro_lato_dx > 420 or carro_lato_sx < 0:
+        print("Game over - Score: {}".format(score))
+        hai_perso()
+
 #Inizializzo pygame
 pygame.init()
 pygame.display.set_caption('Road to Kamchatka Lv 1')
 
 #Carico le immagini
-sfondo = pygame.image.load('sfondoPix1.jpg')
-base = pygame.image.load('basePix.jpg')
-carro = pygame.image.load('carro2.png')
+sfondo = pygame.image.load('images/sfondoPix1.jpg')
+base = pygame.image.load('images/basePix.jpg')
+carro = pygame.image.load('images/carro2.png')
 
-elicottero = pygame.image.load('elicottero.png')
-missile = pygame.image.load('missile.png')
-missile1 = pygame.image.load('missile.png')
+elicottero = pygame.image.load('images/elicottero.png')
+missile = pygame.image.load('images/missile.png')
+missile1 = pygame.image.load('images/missile.png')
 
 pygame.display.set_icon(carro)
-gameover = pygame.image.load('gameOver.png')
+gameover = pygame.image.load('images/gameOver.png')
 
 #Costanti globali
 SCHERMO = pygame.display.set_mode((412, 430))
